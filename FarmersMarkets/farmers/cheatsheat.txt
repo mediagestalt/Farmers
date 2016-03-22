@@ -1,0 +1,11 @@
+>>> response.xpath('//*[@class="marketContainer"]/h2/text()')
+# gets name of business
+
+>>> response.xpath('//table/tr/td/table[@class="categoryInfoTable"]/tr/td/text()')
+# gets all categories
+
+>>> response.xpath('//div[@class="email"]/text()')
+# gets all emails
+
+>>> response.xpath('//div[@class="phone"]/text()')
+# gets all emails
